@@ -1,6 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <p>:)</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 40px); /* Adjust for the message height */
+      flex-direction: column;
+    }
+
+    .nut {
+      width: 100px; /* adjust size as needed */
+      height: auto;
+      animation: rotate 2s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .message {
+      font-size: 24px;
+      color: #333;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="nut.png" alt="Rotating Nut" class="nut">
+    <div class="message">Under Construction</div>
+  </div>
+</body>
 </html>
