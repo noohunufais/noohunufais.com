@@ -1,2 +1,2 @@
-# noohunufais.com
+# noohunufais.com ⚡️⚡
 My personal website
