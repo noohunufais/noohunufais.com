@@ -375,7 +375,7 @@ a img.aligncenter {
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 62px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 .heading p{
 	font-size: 18px;
